@@ -26,7 +26,6 @@ class DecisionTree:
         return counter
 
     def gini_wt_column(self, X, y, name):
-        # Notice how we use self. to call other functions inside the class
         counter = self.tokenize_column(X, y, name)
         n_samples = len(y)
 
